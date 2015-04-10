@@ -1,0 +1,5 @@
+C:\Documents and Settings\User\Мои документы\Tanks\GameLibrary\bin\Debug\GameEngine.dll
+C:\Documents and Settings\User\Мои документы\Tanks\GameLibrary\bin\Debug\GameEngine.pdb
+C:\Documents and Settings\User\Мои документы\Tanks\GameLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\User\Мои документы\Tanks\GameLibrary\obj\Debug\GameEngine.dll
+C:\Documents and Settings\User\Мои документы\Tanks\GameLibrary\obj\Debug\GameEngine.pdb

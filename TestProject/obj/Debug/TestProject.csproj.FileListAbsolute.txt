@@ -1,0 +1,10 @@
+C:\Documents and Settings\User\Мои документы\Tanks\TestProject\bin\Debug\TestProject.dll
+C:\Documents and Settings\User\Мои документы\Tanks\TestProject\bin\Debug\TestProject.pdb
+C:\Documents and Settings\User\Мои документы\Tanks\TestProject\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\User\Мои документы\Tanks\TestProject\obj\Debug\TestProject.dll
+C:\Documents and Settings\User\Мои документы\Tanks\TestProject\obj\Debug\TestProject.pdb
+D:\EPAM\Project\3\Tanks\TestProject\bin\Debug\TestProject.dll
+D:\EPAM\Project\3\Tanks\TestProject\bin\Debug\TestProject.pdb
+D:\EPAM\Project\3\Tanks\TestProject\obj\Debug\ResolveAssemblyReference.cache
+D:\EPAM\Project\3\Tanks\TestProject\obj\Debug\TestProject.dll
+D:\EPAM\Project\3\Tanks\TestProject\obj\Debug\TestProject.pdb

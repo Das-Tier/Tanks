@@ -1,0 +1,20 @@
+C:\Documents and Settings\User\Мои документы\Tanks\GameLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\User\Мои документы\Tanks\GameLibrary\obj\Debug\GameEngine.dll
+C:\Documents and Settings\User\Мои документы\Tanks\GameLibrary\obj\Debug\GameEngine.pdb
+C:\Documents and Settings\User\Мои документы\Tanks\GameLibrary\bin\Debug\GameEngine.dll
+C:\Documents and Settings\User\Мои документы\Tanks\GameLibrary\bin\Debug\GameEngine.pdb
+C:\Users\Vitaly\Desktop\Project\2\Tanks\GameLibrary\bin\Debug\GameEngine.dll
+C:\Users\Vitaly\Desktop\Project\2\Tanks\GameLibrary\bin\Debug\GameEngine.pdb
+C:\Users\Vitaly\Desktop\Project\2\Tanks\GameLibrary\obj\Debug\GameEngine.csprojResolveAssemblyReference.cache
+C:\Users\Vitaly\Desktop\Project\2\Tanks\GameLibrary\obj\Debug\GameEngine.dll
+C:\Users\Vitaly\Desktop\Project\2\Tanks\GameLibrary\obj\Debug\GameEngine.pdb
+C:\Users\Vitaly\Desktop\Project\3\Tanks\GameLibrary\obj\Debug\GameEngine.csprojResolveAssemblyReference.cache
+C:\Users\Vitaly\Desktop\Project\3\Tanks\GameLibrary\obj\Debug\GameEngine.dll
+C:\Users\Vitaly\Desktop\Project\3\Tanks\GameLibrary\bin\Debug\GameEngine.dll
+C:\Users\Vitaly\Desktop\Project\3\Tanks\GameLibrary\bin\Debug\GameEngine.pdb
+C:\Users\Vitaly\Desktop\Project\3\Tanks\GameLibrary\obj\Debug\GameEngine.pdb
+D:\EPAM\Project\3\Tanks\GameLibrary\bin\Debug\GameEngine.dll
+D:\EPAM\Project\3\Tanks\GameLibrary\bin\Debug\GameEngine.pdb
+D:\EPAM\Project\3\Tanks\GameLibrary\obj\Debug\ResolveAssemblyReference.cache
+D:\EPAM\Project\3\Tanks\GameLibrary\obj\Debug\GameEngine.dll
+D:\EPAM\Project\3\Tanks\GameLibrary\obj\Debug\GameEngine.pdb
