@@ -26,3 +26,10 @@ D:\EPAM\Project\3\Tanks\ConsoleUI\bin\Debug\ConsoleUI.exe
 D:\EPAM\Project\3\Tanks\ConsoleUI\bin\Debug\ConsoleUI.pdb
 D:\EPAM\Project\3\Tanks\ConsoleUI\bin\Debug\GameEngine.dll
 D:\EPAM\Project\3\Tanks\ConsoleUI\bin\Debug\GameEngine.pdb
+D:\EPAM\Project\Tanks\ConsoleUI\obj\x86\Debug\ConsoleUI.exe
+D:\EPAM\Project\Tanks\ConsoleUI\obj\x86\Debug\ConsoleUI.pdb
+D:\EPAM\Project\Tanks\ConsoleUI\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\EPAM\Project\Tanks\ConsoleUI\bin\Debug\ConsoleUI.exe
+D:\EPAM\Project\Tanks\ConsoleUI\bin\Debug\ConsoleUI.pdb
+D:\EPAM\Project\Tanks\ConsoleUI\bin\Debug\GameEngine.dll
+D:\EPAM\Project\Tanks\ConsoleUI\bin\Debug\GameEngine.pdb

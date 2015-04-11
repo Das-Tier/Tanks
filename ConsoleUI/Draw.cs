@@ -8,6 +8,7 @@ namespace ConsoleUI
 {
     public static class Drawing
     {
+       
         public static void DrawPlayer(Player player)
         {
             Console.SetCursorPosition(player.X, player.Y);

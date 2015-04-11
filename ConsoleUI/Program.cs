@@ -8,13 +8,13 @@ namespace ConsoleUI
 {
     class Program
     {
-        
+
         static void Main(string[] args)
         {
             ConsoleKeyInfo key = new ConsoleKeyInfo();
 
             Game game = new Game();
-         
+            game.enemies.Add(new GameEngine.GameObjects.Enemy());
             Drawing.DrawLevel(World.MapArray);
             do
             {
@@ -23,38 +23,51 @@ namespace ConsoleUI
                 Drawing.ErasePlayer(game.player);
                 if (Console.KeyAvailable)
                 {
-                    game.player.IsMove = game.player.IsMove = true; ;
+                    // game.player.IsMove = game.player.IsMove = true; ;
                     key = Console.ReadKey(true);
-                    switch (key.Key)
+                    if (key.Key == ConsoleKey.Spacebar)
                     {
-                        case ConsoleKey.UpArrow: game.player.Direction = GameEngine.GameObjects.Direction.Up; break;
-                        case ConsoleKey.DownArrow:  game.player.Direction = GameEngine.GameObjects.Direction.Down; break;
-                        case ConsoleKey.LeftArrow:  game.player.Direction = GameEngine.GameObjects.Direction.Left; break;
-                        case ConsoleKey.RightArrow:  game.player.Direction = GameEngine.GameObjects.Direction.Right; break;
-                        case ConsoleKey.Spacebar:  game.Fire(game.player); break;
+                        game.bullet.Add(game.player.Fire());
                     }
+                    else
                     {
+                        switch (key.Key)
+                        {
+                            case ConsoleKey.UpArrow: game.player.Direction = GameEngine.GameObjects.Direction.Up; break;
+                            case ConsoleKey.DownArrow: game.player.Direction = GameEngine.GameObjects.Direction.Down; break;
+                            case ConsoleKey.LeftArrow: game.player.Direction = GameEngine.GameObjects.Direction.Left; break;
+                            case ConsoleKey.RightArrow: game.player.Direction = GameEngine.GameObjects.Direction.Right; break;
+
+                        }
                         game.player.Move();
                     }
-                   
                 }
 
-
-                foreach (var i in game.enemies)
+                for (int i = 0; i < game.bullet.Count;i++ )
                 {
-                    i.Move();
+                    if (!game.bullet[i].Move())
+                    {
+                        game.bullet.RemoveAt(i);
+                        Drawing.DrawLevel(World.MapArray);
+                    }
                 }
-                foreach (var i in game.bullet)
+                foreach (var i in game.enemies)
                 {
                     i.Move();
                 }
                 Drawing.DrawEnemy(game.enemies);
                 Drawing.DrawBullet(game.bullet);
                 Drawing.DrawPlayer(game.player);
-                System.Threading.Thread.Sleep(200);
+                //Drawing.DrawLevel(World.MapArray);
+                System.Threading.Thread.Sleep(100);
             }
-            while (key.Key!=ConsoleKey.Escape);
-           // Console.ReadLine();
+
+            while (key.Key != ConsoleKey.Escape);
+            // Console.ReadLine();
+
+
+
+
         }
     }
 }

@@ -11,23 +11,39 @@ namespace GameEngine.GameObjects
         {
             Lives = 3;
             Points = 0;
-            IsMove = true;
+            //Size = 1;
+            //IsMove = true;
         }
         public int Lives { get; set; }
         public int Points { get; set; }
-        public bool IsMove { get; set; }
+        //public bool IsMove { get; set; }
+
+        public Bullet Fire()
+        {
+            Bullet b = new Bullet();
+            b.X = X;
+            b.Y = Y;
+            b.Direction = Direction;
+            return b;
+        }
+        
         public void Move()
         {
-            if (IsMove)
-            {
+            newX = X;
+            newY = Y;
                 switch (Direction)
                 {
-                    case Direction.Up: Y -= 1; break;
-                    case Direction.Down: Y += 1; break;
-                    case Direction.Left: X -= 1; break;
-                    case Direction.Right: X += 1; break;
+                    case Direction.Up: newY -= 1; break;
+                    case Direction.Down: newY += 1; break;
+                    case Direction.Left: newX -= 1; break;
+                    case Direction.Right: newX += 1; break;
+                }
+                if (World.MapArray[newY, newX] == '0')
+                {
+                    X = newX;
+                    Y = newY;
                 }
             }
         }
     }
-}
+

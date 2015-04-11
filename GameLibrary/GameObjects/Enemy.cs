@@ -8,6 +8,13 @@ namespace GameEngine.GameObjects
     public class Enemy:GameObject
     {
         Random r = new Random();
+        public Enemy()
+        {
+            X = 1;
+            Y = 2;
+            //newX = X;
+            //newY = Y;
+        }
         public void ChangeDirection()
         {
             
@@ -18,12 +25,19 @@ namespace GameEngine.GameObjects
         public void Move()
         {
             ChangeDirection();
+            newX = X;
+            newY = Y;
             switch (Direction)
             {
-                case Direction.Up: Y -= 1;break;
-                case Direction.Down: Y += 1; break;
-                case Direction.Left: X -= 1; break;
-                case Direction.Right: Y += 1; break;
+                case Direction.Up: newY -= 1;break;
+                case Direction.Down: newY += 1; break;
+                case Direction.Left: newX -= 1; break;
+                case Direction.Right: newX += 1; break;
+            }
+            if (World.MapArray[newY, newX] == '0')
+            {
+                X = newX;
+                Y = newY;
             }
         }
     }

@@ -18,3 +18,8 @@ D:\EPAM\Project\3\Tanks\GameLibrary\bin\Debug\GameEngine.pdb
 D:\EPAM\Project\3\Tanks\GameLibrary\obj\Debug\ResolveAssemblyReference.cache
 D:\EPAM\Project\3\Tanks\GameLibrary\obj\Debug\GameEngine.dll
 D:\EPAM\Project\3\Tanks\GameLibrary\obj\Debug\GameEngine.pdb
+D:\EPAM\Project\Tanks\GameLibrary\obj\Debug\ResolveAssemblyReference.cache
+D:\EPAM\Project\Tanks\GameLibrary\obj\Debug\GameEngine.dll
+D:\EPAM\Project\Tanks\GameLibrary\bin\Debug\GameEngine.dll
+D:\EPAM\Project\Tanks\GameLibrary\bin\Debug\GameEngine.pdb
+D:\EPAM\Project\Tanks\GameLibrary\obj\Debug\GameEngine.pdb

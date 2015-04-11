@@ -14,17 +14,11 @@ namespace GameEngine
         public Game()
         {
             player = new Player { X = 15, Y = 7 };
-            enemies = new List<Enemy>{new Enemy()};
+            enemies = new List<Enemy>();
             bullet = new List<Bullet>();
             World w = new World();
         }
-
-        public void Fire(GameObject obj)
-        {
-            player.IsMove = false;
-            bullet.Add(new Bullet(obj));
-        }
-        public void CheckActions()
+        public void Loop()
         {
             
         }
@@ -32,7 +26,9 @@ namespace GameEngine
         {
 
         }
-
-        
     }
+
+
+
 }
+
