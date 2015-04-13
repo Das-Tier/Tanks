@@ -8,8 +8,8 @@ namespace GameEngine.GameObjects
     public enum Direction
     {
         Up = 1,
-        Right = 3,
-        Down = 2,
-        Left = 4
+        Right = 2,
+        Down = -1,
+        Left = -2
     }
 }

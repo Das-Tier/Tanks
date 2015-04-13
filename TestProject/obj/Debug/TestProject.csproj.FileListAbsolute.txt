@@ -8,3 +8,18 @@ D:\EPAM\Project\3\Tanks\TestProject\bin\Debug\TestProject.pdb
 D:\EPAM\Project\3\Tanks\TestProject\obj\Debug\ResolveAssemblyReference.cache
 D:\EPAM\Project\3\Tanks\TestProject\obj\Debug\TestProject.dll
 D:\EPAM\Project\3\Tanks\TestProject\obj\Debug\TestProject.pdb
+D:\EPAM\Project\Tanks\TestProject\bin\Debug\TestProject.dll
+D:\EPAM\Project\Tanks\TestProject\bin\Debug\TestProject.pdb
+D:\EPAM\Project\Tanks\TestProject\obj\Debug\ResolveAssemblyReference.cache
+D:\EPAM\Project\Tanks\TestProject\obj\Debug\TestProject.dll
+D:\EPAM\Project\Tanks\TestProject\obj\Debug\TestProject.pdb
+D:\EPAM\ActualProject\Копия Tanks\TestProject\bin\Debug\TestProject.dll
+D:\EPAM\ActualProject\Копия Tanks\TestProject\bin\Debug\TestProject.pdb
+D:\EPAM\ActualProject\Копия Tanks\TestProject\obj\Debug\ResolveAssemblyReference.cache
+D:\EPAM\ActualProject\Копия Tanks\TestProject\obj\Debug\TestProject.dll
+D:\EPAM\ActualProject\Копия Tanks\TestProject\obj\Debug\TestProject.pdb
+D:\EPAM\ActualProject\Last\TestProject\bin\Debug\TestProject.dll
+D:\EPAM\ActualProject\Last\TestProject\bin\Debug\TestProject.pdb
+D:\EPAM\ActualProject\Last\TestProject\obj\Debug\ResolveAssemblyReference.cache
+D:\EPAM\ActualProject\Last\TestProject\obj\Debug\TestProject.dll
+D:\EPAM\ActualProject\Last\TestProject\obj\Debug\TestProject.pdb

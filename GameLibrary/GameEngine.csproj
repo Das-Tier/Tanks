@@ -47,13 +47,16 @@
     <Compile Include="GameObjects\GameObject.cs" />
     <Compile Include="GameObjects\IObject.cs" />
     <Compile Include="GameObjects\Player.cs" />
-    <Compile Include="GameObjects\Wall.cs" />
+    <Compile Include="MapObjects\MapObject.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="World.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="StaticObjects\" />
+  </ItemGroup>
   <ItemGroup>
     <Content Include="Maps\map_1.txt" />
+    <Content Include="Maps\map_2.txt" />
+    <Content Include="Maps\map_3.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

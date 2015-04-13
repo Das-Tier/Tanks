@@ -2,17 +2,14 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using GameEngine.MapObjects;
 
 namespace GameEngine.GameObjects
 {
     public class Bullet:GameObject
     {
         public Bullet() { }
-        public void KillObject(GameObject obj)
-        {
-
-        }
-        public bool Move()
+        public  bool Move(MapObject[,] walls)
         {
             newX = X;
             newY = Y;
@@ -23,7 +20,9 @@ namespace GameEngine.GameObjects
                 case Direction.Left: newX -= 1; break;
                 case Direction.Right: newX += 1; break;
             }
-            if (World.MapArray[newY, newX] == '0')
+            
+            
+            if (walls[newX/Game.BlockSize,newY/Game.BlockSize].WallType==WallType.Space)
             {
                 X = newX;
                 Y = newY;
@@ -31,11 +30,10 @@ namespace GameEngine.GameObjects
             }
             else
             {
-                switch (World.MapArray[newY, newX])
+                switch (walls[newX/Game.BlockSize,newY/Game.BlockSize].WallType)
                 {
-                    case '2': World.MapArray[newY, newX] = '0'; break;
-                    case '6': break;
-                    default: break;
+                    case WallType.Wall: walls[newX/Game.BlockSize, newY/Game.BlockSize].WallType = WallType.Space; break;
+                    case WallType.Concrete: break;
                 }
                 return false;
             }

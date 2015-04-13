@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using GameEngine;
+using GameEngine.MapObjects;
 
 namespace GameEngine.GameObjects
 {
@@ -11,39 +13,47 @@ namespace GameEngine.GameObjects
         {
             Lives = 3;
             Points = 0;
-            //Size = 1;
             //IsMove = true;
         }
         public int Lives { get; set; }
         public int Points { get; set; }
-        //public bool IsMove { get; set; }
 
         public Bullet Fire()
         {
-            Bullet b = new Bullet();
-            b.X = X;
-            b.Y = Y;
-            b.Direction = Direction;
-            return b;
+            Bullet bullet = new Bullet();
+            bullet.X = X;
+            bullet.Y = Y;
+            bullet.Direction = Direction;
+            return bullet;
         }
-        
-        public void Move()
+
+        public void Move(MapObject[,] walls)
         {
             newX = X;
             newY = Y;
-                switch (Direction)
-                {
-                    case Direction.Up: newY -= 1; break;
-                    case Direction.Down: newY += 1; break;
-                    case Direction.Left: newX -= 1; break;
-                    case Direction.Right: newX += 1; break;
-                }
-                if (World.MapArray[newY, newX] == '0')
-                {
-                    X = newX;
-                    Y = newY;
-                }
+            switch (Direction)
+            {
+                case Direction.Up: newY -= 1; break;
+                case Direction.Down: newY += 1; break;
+                case Direction.Left: newX -= 1; break;
+                case Direction.Right: newX += 1; break;
+            }
+
+            if (walls[newX / Game.BlockSize, newY / Game.BlockSize].WallType == WallType.Space)
+            {
+                X = newX;
+                Y = newY;
             }
         }
+        public void Die()
+        {
+            Lives--;
+            X = 7 * Game.BlockSize;
+            Y = 18 * Game.BlockSize;
+        }
+        public void GetPoints()
+        {
+            Points += 10;
+        }
     }
-
+}

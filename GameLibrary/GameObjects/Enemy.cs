@@ -2,28 +2,28 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using GameEngine;
+using GameEngine.MapObjects;
 
 namespace GameEngine.GameObjects
 {
     public class Enemy:GameObject
     {
         Random r = new Random();
-        public Enemy()
+        public Enemy(int x, int y)
         {
-            X = 1;
-            Y = 2;
-            //newX = X;
-            //newY = Y;
+            X = 1*Game.BlockSize;
+            Y = 2*Game.BlockSize;
         }
         public void ChangeDirection()
         {
             
-            int i = r.Next(1, 4);
-            this.Direction = (Direction)i;
-
+            int i = r.Next(-3, 3);
+            Direction = (Direction)i;
         }
-        public void Move()
-        {
+     
+        public void Move(MapObject[,] mapArr)
+        {  
             ChangeDirection();
             newX = X;
             newY = Y;
@@ -34,7 +34,7 @@ namespace GameEngine.GameObjects
                 case Direction.Left: newX -= 1; break;
                 case Direction.Right: newX += 1; break;
             }
-            if (World.MapArray[newY, newX] == '0')
+            if (mapArr[newX/Game.BlockSize, newY/Game.BlockSize].WallType==WallType.Space)
             {
                 X = newX;
                 Y = newY;

@@ -33,3 +33,17 @@ D:\EPAM\Project\Tanks\ConsoleUI\bin\Debug\ConsoleUI.exe
 D:\EPAM\Project\Tanks\ConsoleUI\bin\Debug\ConsoleUI.pdb
 D:\EPAM\Project\Tanks\ConsoleUI\bin\Debug\GameEngine.dll
 D:\EPAM\Project\Tanks\ConsoleUI\bin\Debug\GameEngine.pdb
+D:\EPAM\ActualProject\Копия Tanks\ConsoleUI\obj\x86\Debug\ConsoleUI.exe
+D:\EPAM\ActualProject\Копия Tanks\ConsoleUI\obj\x86\Debug\ConsoleUI.pdb
+D:\EPAM\ActualProject\Копия Tanks\ConsoleUI\bin\Debug\ConsoleUI.exe
+D:\EPAM\ActualProject\Копия Tanks\ConsoleUI\bin\Debug\ConsoleUI.pdb
+D:\EPAM\ActualProject\Копия Tanks\ConsoleUI\bin\Debug\GameEngine.dll
+D:\EPAM\ActualProject\Копия Tanks\ConsoleUI\bin\Debug\GameEngine.pdb
+D:\EPAM\ActualProject\Копия Tanks\ConsoleUI\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\EPAM\ActualProject\Last\ConsoleUI\obj\x86\Debug\ConsoleUI.exe
+D:\EPAM\ActualProject\Last\ConsoleUI\obj\x86\Debug\ConsoleUI.pdb
+D:\EPAM\ActualProject\Last\ConsoleUI\bin\Debug\ConsoleUI.exe
+D:\EPAM\ActualProject\Last\ConsoleUI\bin\Debug\ConsoleUI.pdb
+D:\EPAM\ActualProject\Last\ConsoleUI\bin\Debug\GameEngine.dll
+D:\EPAM\ActualProject\Last\ConsoleUI\bin\Debug\GameEngine.pdb
+D:\EPAM\ActualProject\Last\ConsoleUI\obj\x86\Debug\ResolveAssemblyReference.cache
