@@ -14,7 +14,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesktopUI", "DesktopUI\DesktopUI.csproj", "{0FD38F9C-C781-4D3F-9F38-F2B9AD445068}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesktopUI", "DesktopUI\DesktopUI.csproj", "{422AC5AD-8814-4EA3-A4D4-26696A0A1847}"
 EndProject
 Global
 	GlobalSection(TestCaseManagementSettings) = postSolution
@@ -59,16 +59,16 @@ Global
 		{C4A03EAF-C2C3-4325-AE27-FA41B8E4D416}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{C4A03EAF-C2C3-4325-AE27-FA41B8E4D416}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{C4A03EAF-C2C3-4325-AE27-FA41B8E4D416}.Release|x86.ActiveCfg = Release|Any CPU
-		{0FD38F9C-C781-4D3F-9F38-F2B9AD445068}.Debug|Any CPU.ActiveCfg = Debug|x86
-		{0FD38F9C-C781-4D3F-9F38-F2B9AD445068}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
-		{0FD38F9C-C781-4D3F-9F38-F2B9AD445068}.Debug|Mixed Platforms.Build.0 = Debug|x86
-		{0FD38F9C-C781-4D3F-9F38-F2B9AD445068}.Debug|x86.ActiveCfg = Debug|x86
-		{0FD38F9C-C781-4D3F-9F38-F2B9AD445068}.Debug|x86.Build.0 = Debug|x86
-		{0FD38F9C-C781-4D3F-9F38-F2B9AD445068}.Release|Any CPU.ActiveCfg = Release|x86
-		{0FD38F9C-C781-4D3F-9F38-F2B9AD445068}.Release|Mixed Platforms.ActiveCfg = Release|x86
-		{0FD38F9C-C781-4D3F-9F38-F2B9AD445068}.Release|Mixed Platforms.Build.0 = Release|x86
-		{0FD38F9C-C781-4D3F-9F38-F2B9AD445068}.Release|x86.ActiveCfg = Release|x86
-		{0FD38F9C-C781-4D3F-9F38-F2B9AD445068}.Release|x86.Build.0 = Release|x86
+		{422AC5AD-8814-4EA3-A4D4-26696A0A1847}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{422AC5AD-8814-4EA3-A4D4-26696A0A1847}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{422AC5AD-8814-4EA3-A4D4-26696A0A1847}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{422AC5AD-8814-4EA3-A4D4-26696A0A1847}.Debug|x86.ActiveCfg = Debug|x86
+		{422AC5AD-8814-4EA3-A4D4-26696A0A1847}.Debug|x86.Build.0 = Debug|x86
+		{422AC5AD-8814-4EA3-A4D4-26696A0A1847}.Release|Any CPU.ActiveCfg = Release|x86
+		{422AC5AD-8814-4EA3-A4D4-26696A0A1847}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{422AC5AD-8814-4EA3-A4D4-26696A0A1847}.Release|Mixed Platforms.Build.0 = Release|x86
+		{422AC5AD-8814-4EA3-A4D4-26696A0A1847}.Release|x86.ActiveCfg = Release|x86
+		{422AC5AD-8814-4EA3-A4D4-26696A0A1847}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

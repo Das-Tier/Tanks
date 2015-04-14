@@ -9,6 +9,8 @@ namespace GameEngine.GameObjects
     {
         int X { get; }
         int Y { get; }
-        int Speed { get; }
+        Direction Direction { get; }
+
+        //int Speed { get; }
     }
 }

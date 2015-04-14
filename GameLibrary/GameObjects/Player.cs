@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using GameEngine;
+using GameEngine.MapObjects;
 
 namespace GameEngine.GameObjects
 {
@@ -11,23 +13,47 @@ namespace GameEngine.GameObjects
         {
             Lives = 3;
             Points = 0;
-            IsMove = true;
+            //IsMove = true;
         }
         public int Lives { get; set; }
         public int Points { get; set; }
-        public bool IsMove { get; set; }
-        public void Move()
+
+        public Bullet Fire()
         {
-            if (IsMove)
+            Bullet bullet = new Bullet();
+            bullet.X = X;
+            bullet.Y = Y;
+            bullet.Direction = Direction;
+            return bullet;
+        }
+
+        public void Move(MapObject[,] walls)
+        {
+            newX = X;
+            newY = Y;
+            switch (Direction)
             {
-                switch (Direction)
-                {
-                    case Direction.Up: Y -= 1; break;
-                    case Direction.Down: Y += 1; break;
-                    case Direction.Left: X -= 1; break;
-                    case Direction.Right: X += 1; break;
-                }
+                case Direction.Up: newY -= 1; break;
+                case Direction.Down: newY += 1; break;
+                case Direction.Left: newX -= 1; break;
+                case Direction.Right: newX += 1; break;
             }
+
+            if (walls[newX / Game.BlockSize, newY / Game.BlockSize].WallType == WallType.Space)
+            {
+                X = newX;
+                Y = newY;
+            }
+        }
+        public void Die()
+        {
+            Lives--;
+            X = 7 * Game.BlockSize;
+            Y = 18 * Game.BlockSize;
+        }
+        public void GetPoints()
+        {
+            Points += 10;
         }
     }
 }
