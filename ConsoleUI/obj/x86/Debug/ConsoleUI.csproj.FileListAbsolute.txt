@@ -1,49 +1,28 @@
-C:\Documents and Settings\User\Мои документы\Tanks\ConsoleUI\bin\Debug\ConsoleUI.exe
-C:\Documents and Settings\User\Мои документы\Tanks\ConsoleUI\bin\Debug\ConsoleUI.pdb
-C:\Documents and Settings\User\Мои документы\Tanks\ConsoleUI\obj\x86\Debug\ResolveAssemblyReference.cache
-C:\Documents and Settings\User\Мои документы\Tanks\ConsoleUI\obj\x86\Debug\ConsoleUI.exe
-C:\Documents and Settings\User\Мои документы\Tanks\ConsoleUI\obj\x86\Debug\ConsoleUI.pdb
-C:\Documents and Settings\User\Мои документы\Tanks\ConsoleUI\bin\Debug\GameEngine.dll
-C:\Documents and Settings\User\Мои документы\Tanks\ConsoleUI\bin\Debug\GameEngine.pdb
-C:\Users\Vitaly\Desktop\Project\2\Tanks\ConsoleUI\obj\x86\Debug\ConsoleUI.exe
-C:\Users\Vitaly\Desktop\Project\2\Tanks\ConsoleUI\obj\x86\Debug\ConsoleUI.pdb
-C:\Users\Vitaly\Desktop\Project\2\Tanks\ConsoleUI\bin\Debug\ConsoleUI.exe
-C:\Users\Vitaly\Desktop\Project\2\Tanks\ConsoleUI\bin\Debug\ConsoleUI.pdb
-C:\Users\Vitaly\Desktop\Project\2\Tanks\ConsoleUI\bin\Debug\GameEngine.dll
-C:\Users\Vitaly\Desktop\Project\2\Tanks\ConsoleUI\bin\Debug\GameEngine.pdb
-C:\Users\Vitaly\Desktop\Project\2\Tanks\ConsoleUI\obj\x86\Debug\ConsoleUI.csprojResolveAssemblyReference.cache
-C:\Users\Vitaly\Desktop\Project\3\Tanks\ConsoleUI\obj\x86\Debug\ConsoleUI.exe
-C:\Users\Vitaly\Desktop\Project\3\Tanks\ConsoleUI\obj\x86\Debug\ConsoleUI.pdb
-C:\Users\Vitaly\Desktop\Project\3\Tanks\ConsoleUI\obj\x86\Debug\ConsoleUI.csprojResolveAssemblyReference.cache
-C:\Users\Vitaly\Desktop\Project\3\Tanks\ConsoleUI\bin\Debug\ConsoleUI.exe
-C:\Users\Vitaly\Desktop\Project\3\Tanks\ConsoleUI\bin\Debug\ConsoleUI.pdb
-C:\Users\Vitaly\Desktop\Project\3\Tanks\ConsoleUI\bin\Debug\GameEngine.dll
-C:\Users\Vitaly\Desktop\Project\3\Tanks\ConsoleUI\bin\Debug\GameEngine.pdb
-D:\EPAM\Project\3\Tanks\ConsoleUI\obj\x86\Debug\ConsoleUI.exe
-D:\EPAM\Project\3\Tanks\ConsoleUI\obj\x86\Debug\ConsoleUI.pdb
-D:\EPAM\Project\3\Tanks\ConsoleUI\obj\x86\Debug\ResolveAssemblyReference.cache
-D:\EPAM\Project\3\Tanks\ConsoleUI\bin\Debug\ConsoleUI.exe
-D:\EPAM\Project\3\Tanks\ConsoleUI\bin\Debug\ConsoleUI.pdb
-D:\EPAM\Project\3\Tanks\ConsoleUI\bin\Debug\GameEngine.dll
-D:\EPAM\Project\3\Tanks\ConsoleUI\bin\Debug\GameEngine.pdb
-D:\EPAM\Project\Tanks\ConsoleUI\obj\x86\Debug\ConsoleUI.exe
-D:\EPAM\Project\Tanks\ConsoleUI\obj\x86\Debug\ConsoleUI.pdb
-D:\EPAM\Project\Tanks\ConsoleUI\obj\x86\Debug\ResolveAssemblyReference.cache
-D:\EPAM\Project\Tanks\ConsoleUI\bin\Debug\ConsoleUI.exe
-D:\EPAM\Project\Tanks\ConsoleUI\bin\Debug\ConsoleUI.pdb
-D:\EPAM\Project\Tanks\ConsoleUI\bin\Debug\GameEngine.dll
-D:\EPAM\Project\Tanks\ConsoleUI\bin\Debug\GameEngine.pdb
-D:\EPAM\ActualProject\Копия Tanks\ConsoleUI\obj\x86\Debug\ConsoleUI.exe
-D:\EPAM\ActualProject\Копия Tanks\ConsoleUI\obj\x86\Debug\ConsoleUI.pdb
-D:\EPAM\ActualProject\Копия Tanks\ConsoleUI\bin\Debug\ConsoleUI.exe
-D:\EPAM\ActualProject\Копия Tanks\ConsoleUI\bin\Debug\ConsoleUI.pdb
-D:\EPAM\ActualProject\Копия Tanks\ConsoleUI\bin\Debug\GameEngine.dll
-D:\EPAM\ActualProject\Копия Tanks\ConsoleUI\bin\Debug\GameEngine.pdb
-D:\EPAM\ActualProject\Копия Tanks\ConsoleUI\obj\x86\Debug\ResolveAssemblyReference.cache
-D:\EPAM\ActualProject\Last\ConsoleUI\obj\x86\Debug\ConsoleUI.exe
-D:\EPAM\ActualProject\Last\ConsoleUI\obj\x86\Debug\ConsoleUI.pdb
-D:\EPAM\ActualProject\Last\ConsoleUI\bin\Debug\ConsoleUI.exe
-D:\EPAM\ActualProject\Last\ConsoleUI\bin\Debug\ConsoleUI.pdb
-D:\EPAM\ActualProject\Last\ConsoleUI\bin\Debug\GameEngine.dll
-D:\EPAM\ActualProject\Last\ConsoleUI\bin\Debug\GameEngine.pdb
-D:\EPAM\ActualProject\Last\ConsoleUI\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\User\Мои документы\Новая папка\Tanks\ConsoleUI\bin\Debug\ConsoleUI.exe
+C:\Documents and Settings\User\Мои документы\Новая папка\Tanks\ConsoleUI\bin\Debug\ConsoleUI.pdb
+C:\Documents and Settings\User\Мои документы\Новая папка\Tanks\ConsoleUI\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\User\Мои документы\Новая папка\Tanks\ConsoleUI\obj\x86\Debug\ConsoleUI.exe
+C:\Documents and Settings\User\Мои документы\Новая папка\Tanks\ConsoleUI\obj\x86\Debug\ConsoleUI.pdb
+C:\Documents and Settings\User\Мои документы\Новая папка\Tanks\ConsoleUI\bin\Debug\GameEngine.dll
+C:\Documents and Settings\User\Мои документы\Новая папка\Tanks\ConsoleUI\bin\Debug\GameEngine.pdb
+D:\EPAM\1\Новая папка\Tanks\ConsoleUI\obj\x86\Debug\ConsoleUI.exe
+D:\EPAM\1\Новая папка\Tanks\ConsoleUI\obj\x86\Debug\ConsoleUI.pdb
+D:\EPAM\1\Новая папка\Tanks\ConsoleUI\bin\Debug\ConsoleUI.exe
+D:\EPAM\1\Новая папка\Tanks\ConsoleUI\bin\Debug\ConsoleUI.pdb
+D:\EPAM\1\Новая папка\Tanks\ConsoleUI\bin\Debug\GameEngine.dll
+D:\EPAM\1\Новая папка\Tanks\ConsoleUI\bin\Debug\GameEngine.pdb
+D:\EPAM\1\Новая папка\Tanks\ConsoleUI\obj\x86\Debug\ConsoleUI.csprojResolveAssemblyReference.cache
+C:\Documents and Settings\User\Рабочий стол\Initial\Tanks — копия\ConsoleUI\obj\x86\Debug\ConsoleUI.exe
+C:\Documents and Settings\User\Рабочий стол\Initial\Tanks — копия\ConsoleUI\obj\x86\Debug\ConsoleUI.pdb
+C:\Documents and Settings\User\Рабочий стол\Initial\Tanks — копия\ConsoleUI\bin\Debug\ConsoleUI.exe
+C:\Documents and Settings\User\Рабочий стол\Initial\Tanks — копия\ConsoleUI\bin\Debug\ConsoleUI.pdb
+C:\Documents and Settings\User\Рабочий стол\Initial\Tanks — копия\ConsoleUI\bin\Debug\GameEngine.dll
+C:\Documents and Settings\User\Рабочий стол\Initial\Tanks — копия\ConsoleUI\bin\Debug\GameEngine.pdb
+C:\Documents and Settings\User\Рабочий стол\Initial\Tanks — копия\ConsoleUI\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Vitaly\Desktop\Actual\Tanks — копия\ConsoleUI\obj\x86\Debug\ConsoleUI.exe
+C:\Users\Vitaly\Desktop\Actual\Tanks — копия\ConsoleUI\obj\x86\Debug\ConsoleUI.pdb
+C:\Users\Vitaly\Desktop\Actual\Tanks — копия\ConsoleUI\bin\Debug\ConsoleUI.exe
+C:\Users\Vitaly\Desktop\Actual\Tanks — копия\ConsoleUI\bin\Debug\ConsoleUI.pdb
+C:\Users\Vitaly\Desktop\Actual\Tanks — копия\ConsoleUI\bin\Debug\GameEngine.dll
+C:\Users\Vitaly\Desktop\Actual\Tanks — копия\ConsoleUI\bin\Debug\GameEngine.pdb
+C:\Users\Vitaly\Desktop\Actual\Tanks — копия\ConsoleUI\obj\x86\Debug\ConsoleUI.csprojResolveAssemblyReference.cache

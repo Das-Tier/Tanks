@@ -1,0 +1,7 @@
+C:\Users\Vitaly\Desktop\Actual\Tanks — копия\GameEngineTest\bin\Debug\GameEngineTest.dll
+C:\Users\Vitaly\Desktop\Actual\Tanks — копия\GameEngineTest\bin\Debug\GameEngineTest.pdb
+C:\Users\Vitaly\Desktop\Actual\Tanks — копия\GameEngineTest\bin\Debug\GameEngine.dll
+C:\Users\Vitaly\Desktop\Actual\Tanks — копия\GameEngineTest\bin\Debug\GameEngine.pdb
+C:\Users\Vitaly\Desktop\Actual\Tanks — копия\GameEngineTest\obj\Debug\GameEngineTest.csprojResolveAssemblyReference.cache
+C:\Users\Vitaly\Desktop\Actual\Tanks — копия\GameEngineTest\obj\Debug\GameEngineTest.dll
+C:\Users\Vitaly\Desktop\Actual\Tanks — копия\GameEngineTest\obj\Debug\GameEngineTest.pdb

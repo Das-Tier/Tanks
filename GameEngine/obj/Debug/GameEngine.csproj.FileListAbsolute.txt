@@ -1,0 +1,20 @@
+C:\Documents and Settings\User\Мои документы\Новая папка\Tanks\GameEngine\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\User\Мои документы\Новая папка\Tanks\GameEngine\bin\Debug\GameEngine.dll
+C:\Documents and Settings\User\Мои документы\Новая папка\Tanks\GameEngine\bin\Debug\GameEngine.pdb
+C:\Documents and Settings\User\Мои документы\Новая папка\Tanks\GameEngine\obj\Debug\GameEngine.dll
+C:\Documents and Settings\User\Мои документы\Новая папка\Tanks\GameEngine\obj\Debug\GameEngine.pdb
+D:\EPAM\1\Новая папка\Tanks\GameEngine\bin\Debug\GameEngine.dll
+D:\EPAM\1\Новая папка\Tanks\GameEngine\bin\Debug\GameEngine.pdb
+D:\EPAM\1\Новая папка\Tanks\GameEngine\obj\Debug\GameEngine.csprojResolveAssemblyReference.cache
+D:\EPAM\1\Новая папка\Tanks\GameEngine\obj\Debug\GameEngine.dll
+D:\EPAM\1\Новая папка\Tanks\GameEngine\obj\Debug\GameEngine.pdb
+C:\Documents and Settings\User\Рабочий стол\Initial\Tanks — копия\GameEngine\bin\Debug\GameEngine.dll
+C:\Documents and Settings\User\Рабочий стол\Initial\Tanks — копия\GameEngine\bin\Debug\GameEngine.pdb
+C:\Documents and Settings\User\Рабочий стол\Initial\Tanks — копия\GameEngine\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\User\Рабочий стол\Initial\Tanks — копия\GameEngine\obj\Debug\GameEngine.dll
+C:\Documents and Settings\User\Рабочий стол\Initial\Tanks — копия\GameEngine\obj\Debug\GameEngine.pdb
+C:\Users\Vitaly\Desktop\Actual\Tanks — копия\GameEngine\bin\Debug\GameEngine.dll
+C:\Users\Vitaly\Desktop\Actual\Tanks — копия\GameEngine\bin\Debug\GameEngine.pdb
+C:\Users\Vitaly\Desktop\Actual\Tanks — копия\GameEngine\obj\Debug\GameEngine.csprojResolveAssemblyReference.cache
+C:\Users\Vitaly\Desktop\Actual\Tanks — копия\GameEngine\obj\Debug\GameEngine.dll
+C:\Users\Vitaly\Desktop\Actual\Tanks — копия\GameEngine\obj\Debug\GameEngine.pdb

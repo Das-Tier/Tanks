@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using GameEngine;
+using GameEngine.GameObjects;
 
 namespace ConsoleUI
 {
@@ -10,68 +11,58 @@ namespace ConsoleUI
     {
         static void Main(string[] args)
         {
-            ConsoleKeyInfo key = new ConsoleKeyInfo();
-
-            Game game = new Game(1, 3);
-            //game.enemies.Add(new GameEngine.GameObjects.Enemy(3, 5));
-            Drawing.DrawLevel(game.MapObj);
-            do
+            int countIter = 0;
+            ConsoleKeyInfo key;
+            Game game = new Game();
+            View.DrawMap(game);
+            while (true)
             {
-                if (game.enemies.Count() < 3)
-                {
-                    game.AddEnemy();
-                }
-                Drawing.EraseEnemy(game.enemies);
-                Drawing.EraseBullet(game.bullet);
-                Drawing.ErasePlayer(game.player);
+                countIter++;
+                //View.DrawMap(game);
+                
+                Console.CursorVisible = false;
+                View.HideEnemy(game);
+                View.HideBullet(game);
                 if (Console.KeyAvailable)
                 {
-                    // game.player.IsMove = true; ;
+                    View.HidePlayer(game);
                     key = Console.ReadKey(true);
                     if (key.Key == ConsoleKey.Spacebar)
                     {
-                        game.bullet.Add(game.player.Fire());
+                        game.Fire(game.player);
                     }
-                    else
+                    switch (key.Key)
                     {
-                        switch (key.Key)
-                        {
-                            case ConsoleKey.UpArrow: game.player.Direction = GameEngine.GameObjects.Direction.Up; break;
-                            case ConsoleKey.DownArrow: game.player.Direction = GameEngine.GameObjects.Direction.Down; break;
-                            case ConsoleKey.LeftArrow: game.player.Direction = GameEngine.GameObjects.Direction.Left; break;
-                            case ConsoleKey.RightArrow: game.player.Direction = GameEngine.GameObjects.Direction.Right; break;
-                        }
-                        game.player.Move(game.MapObj);
+                        case ConsoleKey.UpArrow: game.player.MoveOn(0, -1); game.player.Direction = Direction.Up; break;
+                        case ConsoleKey.DownArrow: game.player.MoveOn(0, 1); game.player.Direction = Direction.Down; break;
+                        case ConsoleKey.LeftArrow: game.player.MoveOn(-1, 0); game.player.Direction = Direction.Left; break;
+                        case ConsoleKey.RightArrow: game.player.MoveOn(1, 0); game.player.Direction = Direction.Right; break;
                     }
                 }
-                #region CheckActions
-                game.PlayerEnemy(game.player, game.enemies);
-                game.BulletEnemy(game.bullet, game.enemies);
-                game.EnemyEnemy(game.enemies);
-                #endregion
-                for (int i = 0; i < game.bullet.Count; i++)
+                game.CheckBullets();
+                game.CheckEnemies();
+                for (int i=0; i<game.enemies.Count;i++)
                 {
-                    if (!game.bullet[i].Move(game.MapObj))
+                    game.enemies[i].MoveOn(game.player.X, game.player.Y);
+                    if (countIter%10==0&&i%2==0)
                     {
-                        game.bullet.RemoveAt(i);
-                        Drawing.DrawLevel(game.MapObj);
+                        game.EnemyFire(game.enemies[i]);
+                    }
+                    if (countIter%15==0&&i%2==1)
+                    {
+                        game.EnemyFire(game.enemies[i]);
                     }
                 }
-
-                foreach (var i in game.enemies)
+                foreach (var i in game.bullets)
                 {
-                    i.Move(game.MapObj);
+                    i.MoveOn(0, 0);
                 }
-                #region Render
-                Drawing.DrawEnemy(game.enemies);
-                Drawing.DrawBullet(game.bullet);
-                Drawing.DrawPlayer(game.player);
-                Drawing.ShowInfo(game.player);
-                #endregion
-                //Drawing.DrawLevel(World.MapArray);
+                View.RefreshMap(game);
+                View.ShowPlayer(game);
+                View.ShowEnemy(game);
+                View.ShowBullet(game);
                 System.Threading.Thread.Sleep(100);
             }
-            while (game.GameOver());
         }
     }
 }
